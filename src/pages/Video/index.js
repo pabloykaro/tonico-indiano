@@ -10,9 +10,6 @@ function Video(){
     const [dados,setDados] = useState(Comments);
     const [statustwo,setStatusTwo] = useState(false);
 
-    const navigate = useNavigate();
-    const Params = useParams();
-
     function openInNewTab(url) {
         window.open(url, '_blank').focus();
        }
