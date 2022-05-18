@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import {Comments,CommentsNews} from '../../comments';
 import "./style.css";
-import logo from "../../assets/img/logo.png";
+import logoImg from "../../assets/img/logo.png";
 
 
 function Video(){
@@ -41,17 +41,11 @@ useEffect(()=>{
         
         <div className="container">
         <div className="header">
-            <img className="logo" src={logo}/>
+            <img className="logo" src={logoImg}/>
         </div>
     
         <embed className="video" src="https://scripts.converteai.net/7d8c4433-2daa-401f-86a4-79e2544ff13d/players/627f2c95cedd96000aa28d83/embed.html"/>
        <h1 className='legend'>Verifique se o seu áudio está ligado!!!</h1>
-
-    
-    
-                    {statustwo &&
-                     <button onClick={() => openInNewTab("https://pay.kiwify.com.br/a07RJAi")} className="button">CLIQUE AQUI E GARANTA SEU DESCONTO DAS RECEITAS DO TÔNICO INDIANO</button>
-                    }
 
                     <div className="comentarios">
                     { dados.map((item,id) => {

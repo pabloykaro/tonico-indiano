@@ -11,8 +11,7 @@ import Desconto from '../pages/Desconto';
 
 function Rota(){
   return (
-   
-    <BrowserRouter basename='/'>
+    <BrowserRouter>
     <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="video/:home" element={<Video />} />
