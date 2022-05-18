@@ -28,11 +28,8 @@ useEffect(()=>{
 
     (function() {
         window.history.replaceState(null, document.title, "/desconto");
-        window.history.pushState(null, document.title, "/video/home");
+        window.history.pushState(null, document.title, "/video");
         }());
-
-   
-  if(Params.home!=="home"){navigate("/")}
   
 },[]);
 
