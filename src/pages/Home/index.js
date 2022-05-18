@@ -6,7 +6,7 @@ function Home(){
 const navigate = useNavigate();
 
 function MoveVideo(){
-    navigate("/video/home");
+    navigate("/video");
 }
 
  return (
