@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+body {
+    background-image: url("../../assets/img//bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    margin:0;
+    padding:0;
+    
+}
+
+.container{
+    display: flex;  
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.button-content{
+    margin-top: 250px;
+    min-width: 300px;
+    background-color:#EDF2EB;
+    border-radius: 20px;
+    height: 130px;
+    border-color:black;
+    border-width: 2px;
+ box-shadow: black 0 0 50px;
+
+    
+}
+.top-text{
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.center-text{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.button-enter{
+
+    margin-top: 20px;
+    height: 40px;
+    min-width:200px;
+    border: none;
+    background-color: #548C8C;
+    box-shadow: #548C8C 0px 0px 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+  border: 0;
+  -webkit-animation: bounce 1s infinite alternate;
+  -moz-animation: bounce 1s infinite alternate;
+  animation: bounce 1s infinite alternate;
+
+  
+}
+@-webkit-keyframes bounce {
+    to { -webkit-transform: scale(1.2); }
+  }
+  @-moz-keyframes bounce {
+    to { -moz-transform: scale(1.2); }
+  }
+  @keyframes bounce {
+    to { transform: scale(1.2); }
+  }
