@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import {Comments,CommentsNews} from '../../comments';
 import "./style.css";
-import logoImg from "../../assets/img/logo.png";
+import logoImg from "../../assets/img/logoname.png";
 
 
 function Video(){
