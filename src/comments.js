@@ -6,7 +6,7 @@ const Comments = [
         name: "Ana Julia:",
         foto_comment:false,
         hora:"12 min",
-        comment: "Ainda bem que eu assistir até o final, nossa eu tô de cara! Não sabia que realmente ia funcionar assim comigo, já perdi 5 quilos em 17 dias recomendo muiiiiiito",
+        comment: "Ainda bem que eu assisti até o final, nossa eu tô de cara! Não sabia que realmente ia funcionar assim comigo, já perdi 5 quilos em 17 dias recomendo muiiiiiito",
 },
         {
         foto:"https://tonicosasiaticos.fun/wp-content/uploads/2022/05/Design-sem-nome-8.png",
