@@ -61,7 +61,7 @@ return (
          <div className='button-create'>
              <h1 className='desconto-title'>Garanta seu desconto de <span className='text-desc'>R$ 97 por apenas 12x R$ 6,73</span></h1>
          </div>
-           <button onClick={() => openInNewTab('https://pay.kiwify.com.br/pdgadAA')} className='button-desc'>CLIQUE AQUI PARA GARANTIR O SEU DESCONTO</button>
+           <button onClick={() => openInNewTab('https://pay.hotmart.com/C70363347R?off=wc4jc8e5&checkoutMode=10&bid=1653075296707')} className='button-desc'>CLIQUE AQUI PARA GARANTIR O SEU DESCONTO</button>
          <img src={bonus} className="id-image"/>
          <div className='garantia'>
              <img className='selo-garantia' src={selo}/>
