@@ -38,7 +38,7 @@ const CommentsNews = [
         name: "Joana Santos:",
         foto_comment:false,
         hora: "Agora",
-        comment: "Me ajudou demais no processo de emagrecimento, estou super orgulhoso pelo o objetivo graças ao produto.",
+        comment: "Me ajudou demais no processo de emagrecimento, estou super orgulhosa pelo o objetivo graças ao produto!",
 },
 {
     foto:"https://protocolozerogordura.fun/assets/img/comentarios/m7.jpeg",
