@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Blinker&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto';
+    font-family: 'Blinker';
     font-weight: bold;
 }
 body {
-    background-image: url("../../assets/img//bg.jpg");
+    background-image: url("../../assets/img/bg.jpg");
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
@@ -23,18 +23,20 @@ body {
     justify-content:center;
     align-items:center;
     
+    
 }
 
 .button-content{
     margin-top: 250px;
     min-width: 300px;
     background-color:#EDF2EB;
-    border-radius: 20px;
+    border-radius: 0px 20px 20px 20px;
     height: 130px;
     border-color:black;
     border-width: 2px;
  box-shadow: black 0 0 50px;
-
+height: 210px;
+padding-bottom: 50px;
     
 }
 .top-text{
@@ -54,21 +56,44 @@ body {
 
     margin-top: 20px;
     height: 40px;
-    min-width:200px;
+    min-width:170px;
     border: none;
-    background-color: #548C8C;
-    box-shadow: #548C8C 0px 0px 10px;
+    background-color: #4682B4	;
+    box-shadow:#4682B4	 0px 10px 30px;
     color: white;
     font-size: 20px;
     font-weight: bold;
-    border-radius: 10px;
     cursor: pointer;
   border: 0;
+  border-radius: 5px;
   -webkit-animation: bounce 1s infinite alternate;
   -moz-animation: bounce 1s infinite alternate;
   animation: bounce 1s infinite alternate;
 
   
+}
+.button-enter-red{
+
+  margin-top: 20px;
+  height: 40px;
+  min-width:170px;
+  border-radius: 5px;
+  border: none;
+  background-color:#B22222	;
+  box-shadow: #B22222	 0px 10px 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+border: 0;
+-webkit-animation: bounce 1s infinite alternate;
+-moz-animation: bounce 1s infinite alternate;
+animation: bounce 1s infinite alternate;
+
+
+}
+.header-post{
+  font-size: 1.1rem;
 }
 @-webkit-keyframes bounce {
     to { -webkit-transform: scale(1.2); }
