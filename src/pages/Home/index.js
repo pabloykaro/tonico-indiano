@@ -39,7 +39,7 @@ useEffect(()=>{
      <div className="container">
         <div className="button-content">
             <div className="top-text">
-                Tudo pronto!, o que você precisa ?
+                Tudo pronto!, o que você precisa?
             </div>
             <div className="center-text">
              
