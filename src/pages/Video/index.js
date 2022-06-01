@@ -38,7 +38,7 @@ useEffect(()=>{
             <img className="logo" src={logoImg}/>
         </div>
     
-        <embed className="video" src="https://scripts.converteai.net/7d8c4433-2daa-401f-86a4-79e2544ff13d/players/627f2c95cedd96000aa28d83/embed.html"/>
+        <embed className="video" src="https://scripts.converteai.net/5ba4cf2e-7f04-41c9-a261-f5032c366e9a/players/629605a4679e30000a89ff2c/embed.html"/>
        <h1 className='legend'>Verifique se o seu áudio está ligado!!!</h1>
  
                     <div className="comentarios">
