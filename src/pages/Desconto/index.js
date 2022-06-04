@@ -51,6 +51,10 @@ return (
             </div>
              );
          })}
+          <div className='button-create'>
+             <h1 className='desconto-title'>Garanta seu desconto de <span className='text-desc'>R$ 97 por apenas 12x R$ 9,68</span></h1>
+         </div>
+           <button onClick={() => openInNewTab('https://pay.hotmart.com/C70363347R?off=rnsce9yj&checkoutMode=10&bid=1654350158074')} className='button-desc'>CLIQUE AQUI PARA GARANTIR O SEU DESCONTO</button>
         <div className='slides'>
             <div className='content-header-top'><h1>(+) Depoimentos</h1></div>
        <img className="slides-img" src={imgOne}/>
@@ -59,9 +63,9 @@ return (
         </div>
 
          <div className='button-create'>
-             <h1 className='desconto-title'>Garanta seu desconto de <span className='text-desc'>R$ 97 por apenas 12x R$ 6,73</span></h1>
+             <h1 className='desconto-title'>Garanta seu desconto de <span className='text-desc'>R$ 97 por apenas 12x R$ 9,68</span></h1>
          </div>
-           <button onClick={() => openInNewTab('https://pay.hotmart.com/C70363347R?off=wc4jc8e5&checkoutMode=10&bid=1653075296707')} className='button-desc'>CLIQUE AQUI PARA GARANTIR O SEU DESCONTO</button>
+           <button onClick={() => openInNewTab('https://pay.hotmart.com/C70363347R?off=rnsce9yj&checkoutMode=10&bid=1654350158074')} className='button-desc'>CLIQUE AQUI PARA GARANTIR O SEU DESCONTO</button>
          <img src={bonus} className="id-image"/>
          <div className='garantia'>
              <img className='selo-garantia' src={selo}/>
